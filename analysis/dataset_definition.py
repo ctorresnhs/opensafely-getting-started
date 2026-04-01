@@ -12,3 +12,7 @@ has_registration = practice_registrations.for_patient_on(
 dataset.define_population(has_registration)
 
 dataset.sex = patients.sex
+
+# my edits
+dataset.age = patients.age_on(index_date)
+ 
